@@ -2,6 +2,13 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import ComponenteNuevo from './components/ComponenteNuevo';
+
+// Usar el componente en el renderizado
+document.getElementById('app').innerHTML = `
+  <h1>Proyecto Vite</h1>
+  <div id="componente-nuevo"></div>
+`;
 
 document.querySelector('#app').innerHTML = `
   <div>
